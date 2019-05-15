@@ -20,7 +20,7 @@ public class HomeController {
 
   @RequestMapping(method = RequestMethod.GET, path = "/version", produces = "text/plain")
   public String version() {
-    return "version: 1.0.4";
+    return "version: 1.0.5";
   }
 
   @RequestMapping(
